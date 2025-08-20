@@ -1,0 +1,7 @@
+package com.hotelmanagement.roomify.exception;
+
+public class OurException extends RuntimeException {
+    public OurException(String message) {
+        super(message);
+    }
+}
